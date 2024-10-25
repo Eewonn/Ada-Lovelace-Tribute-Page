@@ -1,0 +1,105 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Courier New", monospace;
+  margin: 0;
+  font-size: 20px;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#title {
+  font-size: 2rem;
+  margin-left: 80px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav h3 {
+  margin: 0 30px;
+}
+
+nav a,
+.citation-src {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover,
+.citation-src:hover {
+  color: rgb(94, 94, 94);
+}
+
+#image {
+  display: block;
+  margin: 100px auto 20px auto;
+  width: 700px;
+  min-width: 300px;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+#img-caption,
+#tribute-info {
+  text-align: justify;
+  margin: 0 auto;
+  width: 900px;
+  max-width: 100%;
+}
+
+#img-caption {
+  margin-top: 70px;
+}
+
+#description {
+  margin: -10px auto;
+  text-indent: 80px;
+}
+
+.divider.medium {
+  border: 2px solid black;
+  margin: 0 auto;
+  max-width: 80%;
+  margin: 100px auto 100px auto;
+}
+
+#tribute-link {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  max-width: 100%;
+  margin: 30px auto;
+  padding: 7px 15px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: gray 0.3s ease;
+}
+
+#tribute-link:hover {
+  background-color: #333;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+}
