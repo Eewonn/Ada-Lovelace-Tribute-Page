@@ -103,3 +103,9 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
+#citation-info h4,
+#citation-info h3 {
+  display: block;
+  margin: 0;
+}
